@@ -1,2 +1,6 @@
 #JSON files containing authentication keys
-*.JSON
+credentials.json
+#python cache
+/__pycache__
+#excess, test scripts
+jss.py
