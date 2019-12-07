@@ -1,6 +1,4 @@
 import pyttsx3
-import os, sys
-
 
 engine = pyttsx3.init()
 text = sys.argv[1]
