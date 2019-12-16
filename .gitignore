@@ -1,5 +1,7 @@
 #JSON files containing authentication keys
 credentials.json
+#fetched tweets archive
+tweets.json
 #python cache folders
 /__pycache__
 /venv
