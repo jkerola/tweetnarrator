@@ -1,6 +1,7 @@
 #JSON files containing authentication keys
 credentials.json
-#python cache
+#python cache folders
 /__pycache__
+/venv
 #excess, test scripts
 jss.py
