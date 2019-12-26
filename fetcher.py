@@ -31,7 +31,7 @@ def getTweets(api, keyword):
     return filtered_tweets
 
 def filterText(text):
-    "filters out links from tweets"
+    "filters out links, usernames etc from tweets"
     ## thank you SO
     text = re.sub(r'http\S+', '', text)
     text = re.sub("\\n", ", ", text)
@@ -39,7 +39,7 @@ def filterText(text):
     return text
 
 def speak():
-    "Speaks given text out loud."
+    "Reads fetched tweets out loud."
     engine = pyttsx3.init()
     with open("tweets.json") as tweets_file:
         tweets = json.load(tweets_file)
