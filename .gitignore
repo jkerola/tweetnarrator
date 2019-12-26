@@ -1,3 +1,5 @@
+#gitignore file
+.gitignore
 #JSON files containing authentication keys
 credentials.json
 #fetched tweets archive
