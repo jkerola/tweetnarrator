@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!venv/bin/python
 from time import sleep
 import tweepy
 import re
